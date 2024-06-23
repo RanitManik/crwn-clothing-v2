@@ -1,6 +1,8 @@
 # CRWN Clothing
 
-A modern e-commerce application built with React and Firebase, configured using Vite.
+The modern e-commerce application is developed using React, Redux, and React Hooks, integrated with Firebase and the
+Stripe API. The project is set up with Vite and styled using SCSS.
+It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/courses/learn-react/)**.
 
 ## Table of Contents
 
@@ -10,6 +12,7 @@ A modern e-commerce application built with React and Firebase, configured using 
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgment](#acknowledgment)
 
 ## Installation
 
@@ -28,7 +31,8 @@ A modern e-commerce application built with React and Firebase, configured using 
 
 3. **Set up environment variables:**
 
-   Create a `.env.local` file in the root directory of your project and add your Firebase configuration values. Use the `.env.example` file as a template.
+   Create a `.env.local` file in the root directory of your project and add your Firebase configuration values. Use
+   the `.env.example` file as a template.
 
    ```plaintext
    VITE_FIREBASE_API_KEY=your-api-key-here
@@ -64,11 +68,22 @@ Runs the app in development mode. Open [http://localhost:3000](http://localhost:
 
 ### `npm run build`
 
-Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the
+build for the best performance.
+
+### `npm run lint`
+
+Lints the codebase using ESLint. This ensures your code adheres to specified linting rules and conventions. It
+checks `.js` and `.jsx` files, reports any unused disable directives, and sets the maximum number of warnings to 0.
+
+### `npm run preview`
+
+Previews the production build locally. Useful for testing the production build before deploying.
 
 ### `npm run format`
 
-Formats the codebase using Prettier.
+Formats the codebase using Prettier. It targets all `.js` and `.jsx` files within the `src` directory to ensure
+consistent code formatting.
 
 ## Project Structure
 
@@ -135,3 +150,36 @@ Contributions are welcome! Please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Acknowledgment
+
+This project, CRWN Clothing, is a testament to the collaborative effort and educational resources provided by the
+developer community and online learning platforms. I would like to express our gratitude to the following:
+
+1. **Zero To Mastery Academy:** A special thanks to the Zero To Mastery
+   Academy, _[Andrei Neagoie](https://zerotomastery.io/about/instructor/andrei-neagoie/)_
+   and _[Yihua Zhang](https://zerotomastery.io/about/instructor/yihua-zhang/)_
+   for their
+   comprehensive **[React Course](https://zerotomastery.io/courses/learn-react/)**. The course's practical and hands-on
+   approach provided the foundation and inspiration for this project.
+
+2. **Open Source Libraries and Tools:** This project leverages numerous open-source libraries and tools, including
+   React, Redux, Firebase, and Stripe API. I am grateful to the developers and maintainers of these libraries for their
+   continuous effort in creating and maintaining high-quality tools that make building modern web applications possible.
+
+3. **The Developer Community:** A heartfelt thank you to the developer community for the constant support, feedback, and
+   contributions. Your discussions, tutorials, and shared knowledge have been invaluable in the development process.
+
+4. **Contributors:** To all those who have contributed to this project through code, documentation, or any other form of
+   support, your efforts are greatly appreciated. Your contributions have helped improve the quality and functionality
+   of the project.
+
+5. **Friends and Family:** Lastly, a big thank you to our friends and family for their unwavering support and
+   encouragement throughout the development of this project.
+
+_I hope that this project not only serves as a valuable resource for others but also encourages further learning and
+development within the community._
+
+---
+
+**Thank you!**

@@ -6,22 +6,14 @@ It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/cours
 
 ## Table of Contents
 
-- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Firebase Configuration](#firebase-configuration)
 - [Available Scripts](#available-scripts)
+- [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgment](#acknowledgment)
-
-## Technologies Used
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 ## Installation
 
@@ -84,6 +76,14 @@ Previews the production build locally. Useful for testing the production build b
 
 Formats the codebase using Prettier. It targets all `.js` and `.jsx` files within the `src` directory to ensure
 consistent code formatting.
+
+## Technologies Used
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 ## Project Structure
 

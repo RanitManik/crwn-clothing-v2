@@ -5,7 +5,8 @@ Stripe API. The project is set up with Vite and styled using SCSS.
 
 It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/courses/learn-react/)**.
 
-## Table of Contents
+<details>
+  <summary><strong>Table of Contents</strong></summary>
 
 - [Installation](#installation)
 - [Firebase Configuration](#firebase-configuration)
@@ -15,6 +16,8 @@ It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/cours
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgment](#acknowledgment)
+
+</details>
 
 ## Installation
 

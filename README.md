@@ -182,4 +182,5 @@ development within the community._
 
 ---
 
-**Thank you!**
+<p align="center">Thank you for exploring the <strong>crwn-clothing-v2</strong>! Happy coding! 🚀</p>
+

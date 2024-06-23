@@ -84,6 +84,7 @@ consistent code formatting.
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 ## Project Structure
@@ -99,6 +100,7 @@ crwn-clothing/
 │   ├── routes/
 │   ├── App.jsx
 │   ├── main.jsx
+│   ├── index.scss
 │   └── utils/firebase/
 │       └── firebase.utils.js
 ├── .env.example
@@ -106,9 +108,7 @@ crwn-clothing/
 ├── .gitignore
 ├── .prettierrc
 ├── index.html
-├── postcss.config.js
 ├── .eslintrc.cjs
-├── tailwind.config.js
 ├── vite.config.js
 ├── package.json
 └── README.md

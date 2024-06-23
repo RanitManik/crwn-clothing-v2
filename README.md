@@ -1,8 +1,6 @@
-# CRWN Clothing
+# [CRWN Clothing](https://crwn-clothing-v2-live.vercel.app/)
 
-The modern e-commerce application is developed using React, Redux, and React Hooks, integrated with Firebase and the
-Stripe API. The project is set up with Vite and styled using SCSS.
-It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/courses/learn-react/)**.
+The modern e-commerce application is meticulously crafted with the latest technologies such as React, Redux, and React Hooks. It seamlessly integrates with Firebase for efficient data management and utilizes the Stripe API for secure payment processing. The project is structured using Vite for enhanced performance and styled with SCSS to provide a visually appealing interface. This innovative application is inspired by the comprehensive **[ZeroToMastery React Course](https://zerotomastery.io/courses/learn-react/)**, ensuring high-quality development practices and industry standards are met.
 
 ## Table of Contents
 

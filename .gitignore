@@ -133,3 +133,4 @@ dist
 .vercel
 .idea
 .idea/*
+.env*.local

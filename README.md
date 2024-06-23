@@ -1,141 +1,137 @@
-# React App Template
+# CRWN Clothing
 
-Welcome to the **React-App-Template**! This project is a React application template that serves as a starting point for
-building dynamic and interactive web applications using Vite.
+A modern e-commerce application built with React and Firebase, configured using Vite.
 
-## Features
+## Table of Contents
 
-- **React**: A powerful JavaScript library for building user interfaces.
-- **Vite**: A next-generation frontend tooling. It's fast and efficient, perfect for modern web development.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **PostCSS**: A tool for transforming CSS with JavaScript plugins.
-- **ESLint**: Code linting to maintain consistent code quality.
-- **Prettier**: Code formatting to ensure a consistent code style.
+- [Installation](#installation)
+- [Firebase Configuration](#firebase-configuration)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Getting Started
-
-### Prerequisites
-
-- **Node.js** (>= 20.0.0)
-- **npm** (>= 10.0.0) or **yarn** (>= 1.22.0)
-
-### Installation
+## Installation
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/react-app-template.git
-   cd react-app-template
+   ```sh
+   git clone https://github.com/RanitManik/crwn-clothing-v2.git
+   cd crwn-clothing-v2
    ```
 
 2. **Install dependencies:**
 
-   ```bash
+   ```sh
    npm install
    ```
 
-   or
+3. **Set up environment variables:**
 
-   ```bash
-   yarn install
+   Create a `.env.local` file in the root directory of your project and add your Firebase configuration values. Use the `.env.example` file as a template.
+
+   ```plaintext
+   VITE_FIREBASE_API_KEY=your-api-key-here
+   VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain-here
+   VITE_FIREBASE_PROJECT_ID=your-project-id-here
+   VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket-here
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id-here
+   VITE_FIREBASE_APP_ID=your-app-id-here
    ```
 
-### Running the Development Server
+4. **Run the development server:**
 
-To start the development server, run:
+   ```sh
+   npm run dev
+   ```
 
-```bash
-npm run dev
-```
+## Firebase Configuration
 
-or
+To configure Firebase for this project:
 
-```bash
-yarn dev
-```
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+2. Create a new project or use an existing one.
+3. Navigate to the project settings and locate your Firebase configuration.
+4. Copy the configuration details and replace the placeholders in your `.env.local` file.
 
-Open your browser and navigate to `http://localhost:3000` to see the application in action.
+## Available Scripts
 
-### Building for Production
+In the project directory, you can run the following scripts:
 
-To build the application for production, run:
+### `npm run dev`
 
-```bash
-npm run build
-```
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-or
+### `npm run build`
 
-```bash
-yarn build
-```
+Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The built files will be located in the `dist` directory.
+### `npm run format`
 
-### Linting and Formatting
-
-To lint your code, run:
-
-```bash
-npm run lint
-```
-
-or
-
-```bash
-yarn lint
-```
-
-To format your code, run:
-
-```bash
-npm run format
-```
-
-or
-
-```bash
-yarn format
-```
+Formats the codebase using Prettier.
 
 ## Project Structure
 
-The project structure is as follows:
+Here is an overview of the project's structure:
 
 ```
-react-app-template/
-├── index.html
-├── package.json
-├── postcss.config.js
+crwn-clothing/
 ├── public/
-│   └── vite.svg
-├── README.md
 ├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── routes/
 │   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
+│   ├── main.jsx
+│   └── utils/firebase/
+│       └── firebase.utils.js
+├── .env.example
+├── .env.local (not included in version control)
+├── .gitignore
+├── .prettierrc
+├── index.html
+├── postcss.config.js
+├── .eslintrc.cjs
 ├── tailwind.config.js
-└── vite.config.js
+├── vite.config.js
+├── package.json
+└── README.md
 ```
-
-- **index.html**: HTML template.
-- **package.json**: Project metadata and dependencies.
-- **postcss.config.js**: PostCSS configuration file.
-- **public/**: Contains static assets.
-    - **vite.svg**: Vite logo used in the project.
-- **README.md**: Project documentation.
-- **src/**: Contains the main source code for the React application.
-    - **App.jsx**: The main App component.
-    - **index.css**: Global CSS styles.
-    - **main.jsx**: The entry point of the application.
-- **tailwind.config.js**: Tailwind CSS configuration file.
-- **vite.config.js**: Vite configuration file.
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to
-suggest.
+Contributions are welcome! Please follow these steps:
 
----
+1. **Fork the repository:**
 
-Thank you for using **React-App-Template**! Happy coding! 🚀
+   Click the "Fork" button at the top right of the repository page.
+
+2. **Create a new branch:**
+
+   ```sh
+   git checkout -b feature-branch
+   ```
+
+3. **Make your changes:**
+
+   Implement your feature or fix the bug.
+
+4. **Commit your changes:**
+
+   ```sh
+   git commit -m 'Add some feature'
+   ```
+
+5. **Push to the branch:**
+
+   ```sh
+   git push origin feature-branch
+   ```
+
+6. **Open a pull request:**
+
+   Go to the original repository on GitHub and click the "New Pull Request" button.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.

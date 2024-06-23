@@ -2,6 +2,7 @@
 
 The modern e-commerce application is developed using React, Redux, and React Hooks, integrated with Firebase and the
 Stripe API. The project is set up with Vite and styled using SCSS.
+
 It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/courses/learn-react/)**.
 
 ## Table of Contents

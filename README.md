@@ -6,6 +6,7 @@ It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/cours
 
 ## Table of Contents
 
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Firebase Configuration](#firebase-configuration)
 - [Available Scripts](#available-scripts)
@@ -13,6 +14,14 @@ It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/cours
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgment](#acknowledgment)
+
+## Technologies Used
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 ## Installation
 
@@ -33,15 +42,6 @@ It is based on the **[ZeroToMastery React Course](https://zerotomastery.io/cours
 
    Create a `.env.local` file in the root directory of your project and add your Firebase configuration values. Use
    the `.env.example` file as a template.
-
-   ```plaintext
-   VITE_FIREBASE_API_KEY=your-api-key-here
-   VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain-here
-   VITE_FIREBASE_PROJECT_ID=your-project-id-here
-   VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket-here
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id-here
-   VITE_FIREBASE_APP_ID=your-app-id-here
-   ```
 
 4. **Run the development server:**
 
@@ -64,7 +64,7 @@ In the project directory, you can run the following scripts:
 
 ### `npm run dev`
 
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ### `npm run build`
 

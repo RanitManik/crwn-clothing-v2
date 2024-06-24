@@ -3,11 +3,10 @@
   display: flex;
   justify-content: space-between;
   margin: 0 25px 25px 25px;
+  align-items: center;
 
   .logo-container {
-    height: 100%;
     width: 70px;
-    padding: 25px;
   }
 
   .nav-links-container {

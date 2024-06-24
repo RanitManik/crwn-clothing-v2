@@ -1,6 +1,13 @@
-.authentication-container{
+.authentication-container {
   display: flex;
   max-width: 900px;
   justify-content: space-between;
   margin: 30px auto;
+  padding: 20px;
+  gap: 10px;
+  @media (max-width: 800px) {
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
 }

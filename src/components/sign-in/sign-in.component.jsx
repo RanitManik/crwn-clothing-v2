@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import {
   createUserDocumentFromAuth,
   signInAuthUserWithEmailAndPassword,
@@ -7,6 +7,7 @@ import {
 import FormInputComponent from "../form-input/form-input.component.jsx";
 import "./sign-in.component.scss";
 import ButtonComponent from "../buttom/button.component.jsx";
+import { UserContext } from "../../context/user.context.jsx";
 
 const defaultFormFields = {
   email: "",
@@ -16,6 +17,7 @@ const defaultFormFields = {
 const SignInComponent = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { email, password } = formFields;
+  const { setCurrentUser } = useContext(UserContext);
 
   const resetFormFields = () => {
     setFormFields(defaultFormFields);
@@ -29,6 +31,8 @@ const SignInComponent = () => {
   const signInWithGoogle = async () => {
     const { user } = await signInWithGooglePopup();
     await createUserDocumentFromAuth(user);
+    setCurrentUser(user);
+    resetFormFields();
   };
 
   const handleSubmit = async (event) => {
@@ -39,9 +43,12 @@ const SignInComponent = () => {
     }
 
     try {
-      await signInAuthUserWithEmailAndPassword(email, password).then(
-        resetFormFields,
+      const { user } = await signInAuthUserWithEmailAndPassword(
+        email,
+        password,
       );
+      setCurrentUser(user);
+      resetFormFields();
     } catch (error) {
       if (error.code === "auth/invalid-credential") {
         alert("This email address or the password is invalid!");

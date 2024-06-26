@@ -6,12 +6,7 @@ import { UserContext } from "../../context/user.context.jsx";
 import { signOutUser } from "../../utils/firebase/firebase.utils.js";
 
 const NavigationComponent = () => {
-  const { currentUser, setCurrentUser } = useContext(UserContext);
-
-  const signOutUserHandler = async () => {
-    await signOutUser();
-    setCurrentUser(null);
-  };
+  const { currentUser } = useContext(UserContext);
 
   return (
     <div className="navigation">
@@ -23,7 +18,7 @@ const NavigationComponent = () => {
           SHOP
         </Link>
         {currentUser ? (
-          <span onClick={signOutUserHandler}>
+          <span onClick={signOutUser}>
             SIGN OUT
           </span>
         ) : (

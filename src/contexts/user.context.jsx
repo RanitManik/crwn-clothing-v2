@@ -1,9 +1,12 @@
 import { createContext, useEffect, useState } from "react";
-import { createUserDocumentFromAuth, onAuthStateChangedListener } from "../utils/firebase/firebase.utils.js";
+import {
+  createUserDocumentFromAuth,
+  onAuthStateChangedListener,
+} from "../utils/firebase/firebase.utils.js";
 
 export const UserContext = createContext({
   currentUser: null,
-  setCurrentUser: () => null
+  setCurrentUser: () => null,
 });
 
 // eslint-disable-next-line react/prop-types

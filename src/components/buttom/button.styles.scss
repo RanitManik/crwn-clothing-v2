@@ -11,7 +11,7 @@
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   font-weight: 500;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -47,7 +47,6 @@
   &:focus-within {
     background-color: white;
     color: black;
-    border: red;
-    outline: 2px solid #3e98ff;
+    border: 1px solid #3e98ff;
   }
 }

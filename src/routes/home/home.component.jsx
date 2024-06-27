@@ -1,4 +1,4 @@
-import Categories from "../../components/categories/categories";
+import Categories from "../../components/categories/categories.component.jsx";
 
 const Home = () => {
   const categories = [

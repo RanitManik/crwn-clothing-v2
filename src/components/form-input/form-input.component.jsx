@@ -1,4 +1,4 @@
-import "./form-input.component.scss";
+import "./form-input.styles.scss";
 
 // eslint-disable-next-line react/prop-types
 const FormInputComponent = ({ label, ...otherProps }) => {

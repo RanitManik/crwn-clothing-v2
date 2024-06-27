@@ -1,17 +1,17 @@
 import { useState } from "react";
 import {
   createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth
+  createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils.js";
 import FormInputComponent from "../form-input/form-input.component.jsx";
-import "./sign-up.component.scss";
+import "./sign-up.styles.scss";
 import ButtonComponent from "../buttom/button.component.jsx";
 
 const defaultFormFields = {
   displayName: "",
   email: "",
   password: "",
-  confirmedPassword: ""
+  confirmedPassword: "",
 };
 
 const SignUpComponent = () => {
@@ -42,14 +42,14 @@ const SignUpComponent = () => {
     try {
       const { user } = await createAuthUserWithEmailAndPassword(
         email,
-        password
+        password,
       );
       await createUserDocumentFromAuth(user, { displayName });
       resetFormFields();
     } catch (error) {
       if (error.code === "auth/email-already-in-use") {
         alert(
-          "This email is already in use. Try signing in or different email..."
+          "This email is already in use. Try signing in or different email...",
         );
         return;
       }
@@ -60,7 +60,7 @@ const SignUpComponent = () => {
   return (
     <div className="sign-up-container">
       {/* eslint-disable-next-line react/no-unescaped-entities */}
-      <h2>Don't Have an account?</h2>
+      <h2>Don't have an account?</h2>
       <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInputComponent

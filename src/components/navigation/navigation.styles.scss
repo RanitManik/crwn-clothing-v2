@@ -1,5 +1,5 @@
 .navigation {
-  height: 70px;
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
   margin: 0 25px 25px 25px;
@@ -16,9 +16,11 @@
     align-items: center;
     justify-content: flex-end;
 
-    .nav-link, span {
+    .nav-link,
+    > span {
       padding: 10px 15px;
       cursor: pointer;
+      white-space: nowrap;
     }
   }
 }

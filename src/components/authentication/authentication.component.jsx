@@ -4,7 +4,7 @@ import {
 } from "../../utils/firebase/firebase.utils";
 import SignUpComponent from "../sign-up/sign-up.component.jsx";
 import SignInComponent from "../sign-in/sign-in.component.jsx";
-import "./authentication.component.scss";
+import "./authentication.styles.scss";
 
 const AuthenticationComponent = () => {
   const logGoogleUser = async () => {

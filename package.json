@@ -24,7 +24,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "format": "prettier --write \\\"src/**/*.{js,jsx}\\\""
+    "format": "prettier --write \\\"src/**/*.{js,jsx,scss}\\\""
   },
   "type": "module",
   "version": "0.0.0"

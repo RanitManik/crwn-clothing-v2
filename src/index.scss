@@ -5,10 +5,12 @@
 }
 
 body {
-  margin: 0;
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1920px;
+  margin: auto;
+  position: relative;
 }
 
 a {

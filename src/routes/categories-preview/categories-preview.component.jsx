@@ -6,12 +6,16 @@ const CategoriesPreview = () => {
   const { categoriesMap } = useContext(CategoriesContext);
   return (
     <>
-      {
-        Object.keys(categoriesMap).map((title) => {
-          const products = categoriesMap[title];
-          return <CategoryPreviewComponent key={title} title={title} products={products} />;
-        })
-      }
+      {Object.keys(categoriesMap).map((title) => {
+        const products = categoriesMap[title];
+        return (
+          <CategoryPreviewComponent
+            key={title}
+            title={title}
+            products={products}
+          />
+        );
+      })}
     </>
   );
 };

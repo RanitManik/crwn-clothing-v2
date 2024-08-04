@@ -1,5 +1,12 @@
 # [CRWN Clothing](https://crwn-clothing-v2-live.vercel.app/)
 
+![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/crwn-clothing-v2)
+![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/crwn-clothing-v2)
+![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/crwn-clothing-v2)
+![GitHub License](https://img.shields.io/github/license/RanitManik/crwn-clothing-v2)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/crwn-clothing-v2-live)
+![wakatime](https://wakatime.com/badge/github/RanitManik/crwn-clothing-v2.svg)
+
 The modern e-commerce application is developed using React, Redux, and React Hooks, integrated with Firebase and the
 Stripe API. The project is set up with Vite and styled using SCSS.
 
